@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/toolbar/icons">
+        <file>icon-reset.svg</file>
+    </qresource>
+</RCC>
