@@ -19,6 +19,8 @@ public:
 private slots:
     void on_helloButton_clicked();
 
+    void on_actionReset_triggered();
+
 private:
     Ui::MainWindow *ui;
     QLabel *status;
