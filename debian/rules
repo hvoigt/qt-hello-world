@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+%:
+	qmake
+	dh $@
+
+override_dh_auto_install:
+	mkdir -p $$(pwd)/debian/qt-hello-world/usr/bin
+	cp qt-hello-world $$(pwd)/debian/qt-hello-world/usr/bin/
+	mkdir -p $$(pwd)/debian/qt-hello-world/usr/share/applications
+	cp qt-hello-world.desktop $$(pwd)/debian/qt-hello-world/usr/share/applications/

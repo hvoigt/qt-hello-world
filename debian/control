@@ -1,0 +1,15 @@
+Source: qt-hello-world
+Maintainer: Heiko Voigt <hvoigt@hvoigt.net>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9), qt5-default (>= 5)
+
+Package: qt-hello-world
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: The typical thing ...
+ With commits describing how to achieve every step in the GUI (Qt Creator). So
+ you can use this as a simple tutorial how to start with Qt with minimal
+ coding. For more information see this repository:
+ https://github.com/hvoigt/qt-hello-world

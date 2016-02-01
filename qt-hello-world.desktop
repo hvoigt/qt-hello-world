@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=qt-hello-world
+Icon=None
+Type=Application
+Terminal=false
+Name=Qt Hello World
+GenericName=Example
+Categories=Utility;Application;

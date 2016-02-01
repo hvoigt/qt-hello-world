@@ -1,2 +1,12 @@
+/Makefile
+/debian/files
+/debian/qt-hello-world.debhelper.log
+/debian/qt-hello-world.substvars
+/debian/qt-hello-world/
+/qt-hello-world
 /qt-hello-world.pro.user
 *.autosave
+*.o
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
